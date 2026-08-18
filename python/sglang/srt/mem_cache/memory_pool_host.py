@@ -43,8 +43,6 @@ if _is_cuda or _is_hip:
         transfer_kv_mamba_lf_pf,
         transfer_kv_mamba_pf_lf,
     )
-if _is_npu:
-    pass
 
 logger = logging.getLogger(__name__)
 

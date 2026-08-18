@@ -6907,9 +6907,7 @@ class ServerArgs:
                 self.cuda_graph_config.decode.backend = Backend.DISABLED
                 self.cuda_graph_config.prefill.backend = Backend.DISABLED
 
-        if (
-            self.moe_a2a_backend == "none" and is_npu()
-        ) or self.moe_a2a_backend == "ascend_tp":
+        if self.moe_a2a_backend == "ascend_tp":
             # FIXME (OrangeRedeng): for some reasons if pass "ascend_tp" accuracy drops to zero
             self.moe_a2a_backend = "none"
 
