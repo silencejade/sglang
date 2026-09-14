@@ -1,0 +1,12 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "617d00943a7fb29265c1428302d3c9b0e5643d0e",
+  "prompts": {},
+  "humans": {
+    "h_7da84964d86381": {
+      "author": "silencejade <222910030+silencejade@users.noreply.github.com>"
+    }
+  }
+}
